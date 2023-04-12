@@ -4,7 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 # ---- LOAD ASSETS ----
-img_evert = Image.open("images/evert.jfif")
+img_evert = Image.open("images/eef.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
