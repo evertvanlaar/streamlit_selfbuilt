@@ -50,5 +50,5 @@ with st.container():
         st.header('Space left blank intentionally')
         st.image(
             "images/eef.jpg",
-            width=100, # Manually Adjust the width of the image as per requirement
+            width=575, # Manually Adjust the width of the image as per requirement
         )
