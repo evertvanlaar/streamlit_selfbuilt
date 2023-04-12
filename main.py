@@ -29,3 +29,20 @@ st.title('Interactive Text Input Example')
 
 user_text = st.text_input('Enter your text:')
 st.write(f'You entered: {user_text}')
+
+# ---- WHAT I DO ----
+with st.container():
+    st.write("---")
+    left_column, right_column = st.columns(2)
+    with left_column:
+        st.header("What I do")
+        st.write("##")
+        st.write(
+            """
+            On this website I am creating tutorials for myself to play with python and streamlit.
+            - looking for a way to leverage the power of Python
+            """
+        )
+        st.write("[LinkedIn >](https://www.linkedin.com/in/evertvanlaar/)")
+    with right_column:
+        st_lottie(lottie_coding, height=300, key="coding")
