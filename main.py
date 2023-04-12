@@ -13,10 +13,6 @@ def local_css(file_name):
 
 local_css("style/style.css")
 
-<style>
-background-color: #04AA6D;
-</style>
-
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi, I am Evert :wave:")
