@@ -4,7 +4,6 @@ import streamlit as st
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 # ---- LOAD ASSETS ----
-img_evert = Image.open("images/eef.jpg")
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -49,4 +48,4 @@ with st.container():
         st.write("[LinkedIn >](https://www.linkedin.com/in/evertvanlaar/)")
     with right_column:
         st.header('Space left blank intentionally')
-        st.image(img_evert)
+        ![Image Description](upload://images/eef.jpg)
