@@ -4,9 +4,7 @@ import streamlit as st
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
 # ---- LOAD ASSETS ----
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-img_contact_form = Image.open("images/yt_contact_form.png")
-img_lottie_animation = Image.open("images/yt_lottie_animation.png")
+
 
 # ---- HEADER SECTION ----
 with st.container():
@@ -50,4 +48,4 @@ with st.container():
         )
         st.write("[LinkedIn >](https://www.linkedin.com/in/evertvanlaar/)")
     with right_column:
-        st_lottie(lottie_coding, height=300, key="coding")
+        st.write('Rechterkolom')
