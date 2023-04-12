@@ -48,4 +48,4 @@ with st.container():
         )
         st.write("[LinkedIn >](https://www.linkedin.com/in/evertvanlaar/)")
     with right_column:
-        st.header('space left blank intentionally')
+        st.header('Space left blank intentionally')
