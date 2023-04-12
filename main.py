@@ -45,7 +45,7 @@ with st.container():
             - looking for a way to leverage the power of Python
             """
         )
-        st.write("[LinkedIn >](https://www.linkedin.com/in/evertvanlaar/)")
+        st.write("[Streamlit >](https://streamlit.io/)")
     with right_column:
         st.header('Space left blank intentionally')
         st.image(
