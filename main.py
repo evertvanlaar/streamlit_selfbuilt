@@ -1,5 +1,16 @@
 import streamlit as st
 
+# Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
+st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+
+# ---- HEADER SECTION ----
+with st.container():
+    st.subheader("Hi, I am Evert :wave:")
+    st.title("A Weg developer enthousiast From The Netherlands")
+    st.write("I am passionate about finding ways to use Python to be more efficient and effective."
+    )
+st.write('---')
+
 st.title('My first website!')
 st.write('Welcome to my interactive website built using Python!!!!!!!')
 st.write('---')
