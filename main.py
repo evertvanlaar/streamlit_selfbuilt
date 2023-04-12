@@ -9,10 +9,7 @@ with st.container():
     st.title("A Web development enthousiast From The Netherlands")
     st.write("I am passionate about finding ways to use Python to be more efficient and effective."
     )
-st.write('---')
 
-st.title('My first website!')
-st.write('Welcome to my interactive website built using Python!!!!!!!')
 st.write('---')
 st.title('Interactive Slider Example')
 
