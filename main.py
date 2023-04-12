@@ -48,4 +48,7 @@ with st.container():
         st.write("[LinkedIn >](https://www.linkedin.com/in/evertvanlaar/)")
     with right_column:
         st.header('Space left blank intentionally')
-        ![Image Description](upload://images/eef.jpg)
+        st.image(
+            "images/eef.jpg",
+            width=100, # Manually Adjust the width of the image as per requirement
+        )
