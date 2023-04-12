@@ -42,7 +42,7 @@ with st.container():
         st.write(
             """
             On this website I am creating tutorials for myself to play with python and streamlit.
-            - looking for a way to leverage the power of Python
+            - looking for a way to leverage the power of Python in buiding websites and web apps
             """
         )
         st.write("[Streamlit >](https://streamlit.io/)")
